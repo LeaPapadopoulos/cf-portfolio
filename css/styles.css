@@ -52,8 +52,7 @@ a:active {
   color: var(--secondary-a-color);
 }
 
-button {
-  border: 1px solid var(--button-border-color);
+.btn {
   display: block;
   padding: 8px 15px;
   font-size: 13px;
@@ -157,40 +156,4 @@ button {
   }
 }
 
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-  to {
-    fill: #f714a0;
-  }
-}
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-.cloud-front {
-  animation: 10s cloud-move infinite alternate linear;
-}
-.cloud-back {
-  animation: 14s cloud-move-reverse infinite alternate linear;
-}
-.berlin-svg {
-  max-width: 1024px;
-  margin: auto;
-}
+
