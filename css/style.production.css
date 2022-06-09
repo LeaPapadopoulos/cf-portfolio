@@ -28,7 +28,6 @@ p {
   font-size: 17px;
   line-height: 160%;
   text-align: center;
-  margin: 30px;
 }
 h1 {
   line-height: 140%;
@@ -56,24 +55,7 @@ a:visited {
 a:active {
   color: #489c79;
 }
-
-.btn {
-  display: block;
-  padding: 8px 15px;
-  font-size: 13px;
-  margin: auto;
-  font-weight: bold;
-  border-radius: 20px;
-  -webkit-transition: all 150ms ease-in-out;
-  -o-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
-}
-.button:hover {
-  background: #d6d3df;
-  color: white;
-}
-.button {
-  border: none;
+.btn-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,6 +65,24 @@ a:active {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.btn {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+  -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  margin: 20px 0;
+}
+.button:hover {
+  background: #d6d3df;
+  color: white;
+}
+.button {
+  border: none;
   background-color: #81bbb2;
   color: white;
   text-decoration: none;
@@ -95,15 +95,6 @@ a:active {
 }
 button {
   border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   background-color: #81bbb2;
   color: white;
   text-decoration: none;
