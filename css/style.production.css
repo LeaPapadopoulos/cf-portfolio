@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color:#212529;
   font-size: 17px;
   line-height: 120%;
   min-height: 100vh;
@@ -171,8 +172,9 @@ ul {
 
 .grid-profile {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #d7dbdb;
 }
 .grid-profile__item {
   display: inline-block;
